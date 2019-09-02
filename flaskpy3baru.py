@@ -57,45 +57,45 @@ def result():
 			if pilih.find('cloudy') != -1:
 				hari = data['current']['is_day']
 				if hari == 1:
-					gambar = 'http://lkmm-td.petra.ac.id/gambar/weathering/cloudy-day.jpg'
+					gambar = 'https://drive.google.com/file/d/1CyO6YY8IB7o_MX6h605UkNx2IJUVesg8/preview'
 				else:
-					gambar = 'http://lkmm-td.petra.ac.id/gambar/weathering/cloudy-night.jpg'
+					gambar = 'https://drive.google.com/file/d/1Au7IgILjLXXd9RFEKfkHRXNaC-mqii_Z/preview'
 			elif pilih.find('blizzard') != -1:
 				hari = data['current']['is_day']
 				if hari == 1:
-					gambar = 'http://lkmm-td.petra.ac.id/gambar/weathering/blizzard-day.jpg'
+					gambar = 'https://drive.google.com/file/d/1QncJMob8nX14dLcQrZYQIawV609HnoNh/preview'
 				else:
-					gambar = 'http://lkmm-td.petra.ac.id/gambar/weathering/blizzard-night.jpg'
+					gambar = 'https://drive.google.com/file/d/1pLCx6uor0CyR5IBIW64H5NcXKy3McgP7/preview'
 			elif pilih.find('drizzle') != -1:
 				hari = data['current']['is_day']
 				if hari == 1:
-					gambar = 'http://lkmm-td.petra.ac.id/gambar/weathering/drizzle-day.jpg'
+					gambar = 'https://drive.google.com/file/d/1wYlQpeU7StDP21uIAzwLWPEC8nMpXf3m/preview'
 				else:
-					gambar = 'http://lkmm-td.petra.ac.id/gambar/weathering/drizzle-night.jpg'
+					gambar = 'https://drive.google.com/file/d/1h_n_nyJlKgTgSqwOhiH15CcnmXrMYQbg/preview'
 			elif pilih.find('fog') != -1:
 				hari = data['current']['is_day']
 				if hari == 1:
-					gambar = 'http://lkmm-td.petra.ac.id/gambar/weathering/fog-day.jpg'
+					gambar = 'https://drive.google.com/file/d/13yGgBZS0Q1kGVh_8yN-8zthOEDMUK8bo/preview'
 				else:
-					gambar = 'http://lkmm-td.petra.ac.id/gambar/weathering/fog-night.jpg'
+					gambar = 'https://drive.google.com/file/d/1pqQ6fTvo0e9MOSVUXVx63SZJKr7pM6gD/preview'
 			elif pilih.find('mist') != -1:
 				hari = data['current']['is_day']
 				if hari == 1:
-					gambar = 'http://lkmm-td.petra.ac.id/gambar/weathering/mist-day.jpg'
+					gambar = 'https://drive.google.com/file/d/1__xOec8ryo3PDRNvOhZPSLti3vbzTMwe/preview'
 				else:
-					gambar = 'http://lkmm-td.petra.ac.id/gambar/weathering/mist-night.jpg'
+					gambar = 'https://drive.google.com/file/d/1yAWuF427gGSc6sp4EW7tGQuYH08LANvG/preview'
 			elif pilih.find('overcast') != -1:
 				hari = data['current']['is_day']
 				if hari == 1:
-					gambar = 'http://lkmm-td.petra.ac.id/gambar/weathering/overcast-day.jpg'
+					gambar = 'https://drive.google.com/file/d/1xQqXNJ_NSjbP_zxg0oxxUiL7k40grND7/preview'
 				else:
-					gambar = 'http://lkmm-td.petra.ac.id/gambar/weathering/overcast-night.jpg'
+					gambar = 'https://drive.google.com/file/d/1l3njkljCwCH8fFvdplOPQsjSlC6QcXGR/preview'
 			elif pilih.find('rain') != -1:
 				hari = data['current']['is_day']
 				if hari == 1:
-					gambar = 'http://lkmm-td.petra.ac.id/gambar/weathering/rain-day.jpg'
+					gambar = 'https://drive.google.com/file/d/1wZWwJmpbTNhR-sRtBMW_6rysRO6zh11q/preview'
 				else:
-					gambar = 'http://lkmm-td.petra.ac.id/gambar/weathering/rain-night.jpg'
+					gambar = 'https://drive.google.com/file/d/1d0uOwQ2zMbRPUJL0T8hR8x3pH71DMZyY/preview'
 			elif pilih.find('sleet') != -1:
 				hari = data['current']['is_day']
 				if hari == 1:
