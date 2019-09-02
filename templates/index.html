@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Jesselland Weather</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- stylesheets css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.min.css') }}">
+
+  	<link rel="stylesheet" href="{{ url_for('static', filename='css/et-line-font.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+
+  	<link rel="stylesheet" href="{{ url_for('static', filename='css/vegas.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+	<link href='https://fonts.googleapis.com/css?family=Rajdhani:400,500,700' rel='stylesheet' type='text/css'>
+
+  <script>
+    $(document).ready(function(){
+
+    });
+  </script>
+
+</head>
+<body>
+
+<!-- preloader section -->
+<section class="preloader">
+	<div class="sk-circle">
+       <div class="sk-circle1 sk-child"></div>
+       <div class="sk-circle2 sk-child"></div>
+       <div class="sk-circle3 sk-child"></div>
+       <div class="sk-circle4 sk-child"></div>
+       <div class="sk-circle5 sk-child"></div>
+       <div class="sk-circle6 sk-child"></div>
+      <div class="sk-circle7 sk-child"></div>
+       <div class="sk-circle8 sk-child"></div>
+       <div class="sk-circle9 sk-child"></div>
+       <div class="sk-circle10 sk-child"></div>
+       <div class="sk-circle11 sk-child"></div>
+       <div class="sk-circle12 sk-child"></div>
+     </div>
+</section>
+
+<!-- home section -->
+<section id="home">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-offset-2 col-md-8 col-sm-12">
+				<div class="home-thumb">
+					<h1 class="wow fadeInUp" data-wow-delay="0.4s">Hello, we are JESSELLAND</h1>
+          			<h3 class="wow fadeInUp" data-wow-delay="0.6s">We are almost <strong>ready to launch</strong> our <strong>weather</strong> website!</h3>
+        			<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-lg btn-success smoothScroll wow fadeInUp" data-wow-delay="1.0s">Let's Begin!</a>
+				</div>
+			</div>
+
+		</div>
+	</div>		
+</section>
+
+<!-- modal -->
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content modal-popup">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h2 class="modal-title">LOG IN</h2>
+        </div>
+        <form action="/cek/" method="post">
+          <input name="username" type="text" class="form-control" id="username" placeholder="Username">
+          <input name="password" type="password" class="form-control" id="password" placeholder="Password">
+          <input name="submit" type="submit" class="form-control" id="login" value="LOG IN">
+        </form>
+        <p>Don't have an account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal2" data-wow-delay="1.0s"> Sign Up. </a></p>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content modal-popup">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h2 class="modal-title">SIGN UP</h2>
+        </div>
+        <form action="/signup/" method="post">
+          <input name="username" type="text" class="form-control" id="username" placeholder="Username">
+          <input name="password" type="password" class="form-control" id="password" placeholder="Password">
+          <input name="submit" type="submit" class="form-control" id="signup" value="SIGN UP">
+        </form>
+      </div>
+  </div>
+</div>
+
+<!-- Back top -->
+<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+<!-- javscript js -->
+<script src="http://lkmm-td.petra.ac.id/gambar/jquery.js"></script>
+<script src="http://lkmm-td.petra.ac.id/gambar/bootstrap.min.js"></script>
+
+<script src="http://lkmm-td.petra.ac.id/gambar/vegas.min.js"></script>
+
+<script src="http://lkmm-td.petra.ac.id/gambar/wow.min.js"></script>
+<script src="http://lkmm-td.petra.ac.id/gambar/smoothscroll.js"></script>
+<script src="http://lkmm-td.petra.ac.id/gambar/custom.js"></script>
+
+</body>
+</html>
